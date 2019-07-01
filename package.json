@@ -1,0 +1,24 @@
+{
+  "name": "super-heroes",
+  "version": "1.0.0",
+  "description": "Super heroes search app",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/construktivist/super-heroes.git"
+  },
+  "keywords": [
+    "super",
+    "heroes"
+  ],
+  "author": "Keegan Kelly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/construktivist/super-heroes/issues"
+  },
+  "homepage": "https://github.com/construktivist/super-heroes#readme"
+}
