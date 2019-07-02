@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/construktivist/super-heroes/issues"
   },
-  "homepage": "https://github.com/construktivist/super-heroes#readme"
+  "homepage": "https://github.com/construktivist/super-heroes#readme",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
 }
