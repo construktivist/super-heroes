@@ -1,5 +1,11 @@
-$gray: gray;
+$bg-image: url(https://hdwallpaperspage.com/full/109200.jpg);
 
 body {
-    background: $gray;
+    background-image: $bg-image;
+    .container-fluid {
+        padding: 0;
+        img {
+            border: 10px solid white;
+        }
+    }
 }
