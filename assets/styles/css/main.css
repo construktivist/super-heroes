@@ -1,6 +1,17 @@
 body {
   background-image: url(https://hdwallpaperspage.com/full/109200.jpg); }
-  body .container-fluid {
-    padding: 0; }
-    body .container-fluid img {
-      border: 10px solid white; }
+  body .container-grid-all {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-auto-rows: minmax(auto, 100%); }
+    body .container-grid-all .featured {
+      padding: 0; }
+      body .container-grid-all .featured img {
+        border: 10px solid white;
+        height: 600px; }
+    body .container-grid-all .container-grid-nav {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      grid-auto-rows: minmax(auto, 80px); }
+      body .container-grid-all .container-grid-nav .search, body .container-grid-all .container-grid-nav .nav {
+        background: gray; }

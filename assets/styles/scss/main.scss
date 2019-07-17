@@ -2,10 +2,26 @@ $bg-image: url(https://hdwallpaperspage.com/full/109200.jpg);
 
 body {
     background-image: $bg-image;
-    .container-fluid {
-        padding: 0;
-        img {
-            border: 10px solid white;
+    .container-grid-all {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-auto-rows: minmax(auto, 100%);
+
+        .featured {
+            padding: 0;
+            img {
+                border: 10px solid white;
+                height: 600px;
+            }
+        }
+
+        .container-grid-nav {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            grid-auto-rows: minmax(auto, 80px);
+            .search, .nav {
+                background: gray;
+            }
         }
     }
 }
