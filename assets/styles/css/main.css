@@ -11,7 +11,6 @@ body {
         height: 600px; }
     body .container-grid-all .container-grid-nav {
       display: grid;
-      grid-template-columns: 1fr 2fr;
-      grid-auto-rows: minmax(auto, 80px); }
+      grid-auto-rows: minmax(auto, 50px); }
       body .container-grid-all .container-grid-nav .search, body .container-grid-all .container-grid-nav .nav {
         background: gray; }

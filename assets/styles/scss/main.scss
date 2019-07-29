@@ -17,8 +17,7 @@ body {
 
         .container-grid-nav {
             display: grid;
-            grid-template-columns: 1fr 2fr;
-            grid-auto-rows: minmax(auto, 80px);
+            grid-auto-rows: minmax(auto, 50px);
             .search, .nav {
                 background: gray;
             }
